@@ -1,0 +1,91 @@
+1505899767207	geckodriver	INFO	geckodriver 0.19.0
+1505899767222	geckodriver	INFO	Listening on 127.0.0.1:50257
+1505899769547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofile.CONz8IaZ1jEd"
+1505899771248	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505899772499	Marionette	INFO	Enabled via --marionette
+1505899779111	Marionette	INFO	Listening on port 50263
+1505899779194	Marionette	INFO	Listening on port 50263
+1505899779242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505899779285	Marionette	DEBUG	loaded listener.js
+1505899779315	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505899779543	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505899779544	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505899781122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899782003	Marionette	DEBUG	Received DOM event "pageshow" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899782389	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505899782673	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505899783513	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505899783749	Marionette	DEBUG	Received DOM event "beforeunload" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899785248	Marionette	DEBUG	Received DOM event "pagehide" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899785249	Marionette	DEBUG	Received DOM event "unload" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899785905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_10&fz94=on&fz223=on&inclusionDateFrom=&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE"
+1505899786488	Marionette	DEBUG	Received DOM event "pageshow" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_10&fz94=on&fz223=on&inclusionDateFrom=&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE"
+1505899791727	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505899801740	geckodriver	INFO	geckodriver 0.19.0
+1505899801740	geckodriver	INFO	Listening on 127.0.0.1:50395
+1505899803861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofile.2LLEpfF0cEW4"
+1505899804335	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505899805209	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7148] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[Child 976] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 976] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505899809184	Marionette	INFO	Listening on port 50401
+1505899809246	Marionette	INFO	Listening on port 50401
+1505899809679	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505899809737	Marionette	DEBUG	loaded listener.js
+1505899809774	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505899809897	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505899809897	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505899811388	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899812002	Marionette	DEBUG	Received DOM event "pageshow" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899812358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505899812891	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505899813775	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505899813977	Marionette	DEBUG	Received DOM event "beforeunload" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899814811	Marionette	DEBUG	Received DOM event "pagehide" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899814814	Marionette	DEBUG	Received DOM event "unload" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505899815375	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_10&fz94=on&fz223=on&inclusionDateFrom=&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE"
+1505899815584	Marionette	DEBUG	Received DOM event "pageshow" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_10&fz94=on&fz223=on&inclusionDateFrom=&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE"
+1505899820888	Marionette	INFO	New connections will no longer be accepted
+1505904905687	geckodriver	INFO	geckodriver 0.19.0
+1505904905687	geckodriver	INFO	Listening on 127.0.0.1:57042
+1505904907747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofile.OBk7xN9aFUOV"
+1505904908072	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505904908776	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3424] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505904912400	Marionette	INFO	Listening on port 57048
+1505904912411	Marionette	INFO	Listening on port 57048
+1505904913035	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505904913091	Marionette	DEBUG	loaded listener.js
+1505904913157	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505904913296	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505904913297	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505904914968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505904915770	Marionette	DEBUG	Received DOM event "pageshow" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505904916124	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505904917411	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505904918238	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505904918433	Marionette	DEBUG	Received DOM event "beforeunload" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505904919809	Marionette	DEBUG	Received DOM event "pagehide" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505904919809	Marionette	DEBUG	Received DOM event "unload" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html#"
+1505904920290	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_10&fz94=on&fz223=on&inclusionDateFrom=&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE"
+1505904920912	Marionette	DEBUG	Received DOM event "pageshow" for "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_10&fz94=on&fz223=on&inclusionDateFrom=&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE"
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7364] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7364] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\1\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1312] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1312] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1505904926097	geckodriver::marionette	ERROR	Failed to kill browser process
