@@ -23,42 +23,15 @@ def lookup(driver, start, end):
     page_num = 1
     url_params = "http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber={0}&sortDirection=false&recordsPerPage=_50&fz94=on&fz223=on&inclusionDateFrom={1}&inclusionDateTo={2}&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATE".format(page_num, start, end)
     driver.get(url_params)
-    try:
-        # ext_search = driver.wait.until(EC.element_to_be_clickable(
-        #     (By.XPATH, '//*[@id="setParametersLink"]/a')))
-        # ext_search.click()
+    global container
+    html = driver.page_source
+    soup = BeautifulSoup(html, 'html.parser')
 
-        # more_elems = driver.wait.until(EC.presence_of_element_located(
-        #     (By.ID, '_50')))
-        # more_elems.click()
-        # # # select 50 elements from dropdown #_50
-        # start_box = driver.wait.until(EC.presence_of_element_located(
-        #     (By.XPATH, '//*[@id="inclusionDateFrom"]')))
-        # time.sleep(1)
-        # start_box.click()
-        # start_box.send_keys(start)
-        # time.sleep(0.5)
-                
-        # end_box = driver.wait.until(EC.presence_of_element_located(
-        #     (By.XPATH, '//*[@id="inclusionDateTo"]')))
-        # end_box.click()
-        # end_box.send_keys(end)
-        # end_box.send_keys(Keys.RETURN)
-        # button = driver.wait.until(EC.element_to_be_clickable(
-        #     (By.XPATH, '//*[@id="searchButtonsBlock"]/div/span[2]')))
-        # button.click()
+    # parse data in td.greyText
+    for tag in soup.find_all('tr'):
+        text = tag.get_text()
+        container.append(text)
 
-        global container
-        html = driver.page_source
-        soup = BeautifulSoup(html, 'html.parser')
-
-        # parse data in td.greyText
-        for tag in soup.find_all('tr'):
-            container.append(tag)
-
-    except TimeoutException:
-        print("Box or Button not found in zakupki.gov.ru")
- 
 
 if __name__ == "__main__":
     driver = init_driver()
