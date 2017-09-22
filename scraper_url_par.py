@@ -11,12 +11,11 @@ import pandas as pd
 import xlsxwriter
 import numpy as np
 
-# make search to take url parameters like this:
-# http://zakupki.gov.ru/epz/dishonestsupplier/quicksearch/search.html?searchString=&morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_50&fz94=on&fz223=on&inclusionDateFrom=01.09.2017&inclusionDateTo=20.09.2017&lastUpdateDateFrom=&lastUpdateDateTo=&sortBy=UPDATE_DATEs 
+# change start and end to choose different period to make report for
 container = pd.DataFrame()
 num_rec = 0
-start = '01.08.2017'
-end = '01.10.2017'
+start = '01.07.2017'
+end = '01.08.2017'
 
 
 # write date generator which takes start date and number of monthes
@@ -48,7 +47,6 @@ def lookup(driver, start, end, page_num):
     
     data = []
     for tag in soup.find_all('tr'):
-        # time.sleep(1)
         text = tag.get_text()
         data.append(text)
         container = pd.DataFrame(data)
@@ -63,7 +61,7 @@ def lookup(driver, start, end, page_num):
 if __name__ == "__main__":
     driver = init_driver()
     writer = pd.ExcelWriter('C:/Users/1/PyScripts/Scraper/output/dishonest_suppliers_{0}-{1}.xls'.format(start, end))
-    for n in range(1, 20):
+    for n in range(1, 21):
         lookup(driver, start, end, n)
         container.to_excel(writer, 'page{0}'.format(n))
         writer.save()
